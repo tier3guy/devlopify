@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Montserrat&family=Poppins:ital,wght@0,400;0,500;1,400&family=Roboto:wght@300;400&display=swap');
+
+:root{
+
+    --dark: #1B2430;
+    --grey: #e0e0e0;
+    --purple: #5e17eb;
+    --white: white;
+
+    --font-main: 'Poppins';
+}

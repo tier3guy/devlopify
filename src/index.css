@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-main);
+  font-weight: 400;
+}
+body{
+  background: var(--white);
+}
+button, a{
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  transition: all 0.2s;
+}
+.main-wrapper{
+  width: 100%;
+}
+.bg-dark{
+  background: var(--dark);
+}
+span{
+  background: -webkit-linear-gradient(var(--dark), var(--pink));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p{
+  color: var(--dark);
+}
