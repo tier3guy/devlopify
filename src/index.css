@@ -15,12 +15,6 @@ button, a{
   outline: none;
   transition: all 0.2s;
 }
-.main-wrapper{
-  width: 100%;
-}
-.bg-dark{
-  background: var(--dark);
-}
 span{
   background: -webkit-linear-gradient(var(--dark), var(--pink));
   background-clip: text;
@@ -29,4 +23,89 @@ span{
 }
 p{
   color: var(--dark);
+}
+i{
+  color: var(--purple);
+}
+a > i{
+  padding: 2px;
+  border-bottom: 1px solid var(--purple);
+}
+
+.main-wrapper{
+  width: 100%;
+}
+.bg-dark{
+  background: var(--dark);
+}
+.border{
+  border: 2px solid red;
+}
+.w-100{
+  width: 100%;
+}
+.w-75{
+  width: 75%;
+}
+.w-50{
+  width: 50%;
+}
+.m-auto{
+  margin: auto;
+}
+.btn-primary{
+  padding: 10px 20px;
+  font-size: 1em;
+  background: var(--purple);
+  color: var(--white);
+  border-radius: 25px;
+}
+.logo{
+  color: var(--purple);
+}
+.h-100{
+  min-height: 100vh;
+}
+.d-flex{
+  display: flex;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.justify-space{
+  justify-content: space-around;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.fdc{
+  flex-direction: column;
+}
+.c-grey{
+  color: var(--grey);
+}
+.c-dark{
+  color: var(--dark);
+}
+.c-white{
+  color: var(--white);
+}
+.c-white{
+  color: var(--fade);
+}
+.c-purple{
+  color: var(--purple);
+}
+.txt-center{
+  text-align: center;
+}
+.bg-blur{
+  background: rgba( 255, 255, 255, 0.25 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+}
+.mt-5{
+  margin-top: 2em;
 }

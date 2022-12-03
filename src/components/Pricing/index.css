@@ -1,0 +1,13 @@
+.pricing{
+    padding: 3em 0px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.pricing > .txt-wrapper{
+    width: 35vw;
+}
+.img-pricing{
+    width: 30vw;
+    height: 90vh;
+    object-fit: cover;
+}

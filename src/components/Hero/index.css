@@ -1,0 +1,19 @@
+.hero{
+    margin-top: 7em;
+    display: flex;
+    justify-content: space-between;
+}
+.img-hero{
+    width: 35vw;
+    height: 95vh;
+    object-fit: cover;
+}
+.hero-txt{
+    font-size: 48px;
+}
+.txt-wrapper{
+    width: 45%;
+}
+.txt-wrapper > p{
+    margin-top: 15px;
+}

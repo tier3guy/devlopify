@@ -3,9 +3,10 @@
 :root{
 
     --dark: #1B2430;
-    --grey: #e0e0e0;
+    --grey: #00000088;
     --purple: #5e17eb;
     --white: white;
+    --fade: #f2f2f2a1;
 
     --font-main: 'Poppins';
 }

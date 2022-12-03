@@ -1,0 +1,20 @@
+.features-wrapper{
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+.features-wrapper > h1{
+    font-size: 36px;
+}
+.features-wrapper > p, .features-wrapper > div > p{
+    color: var(--fade);
+    margin: 25px;
+}
+.features-icons{
+    color: var(--fade);
+    font-size: 8em;
+}
+.icon-container > p{
+    color: var(--fade);
+    margin-top: 15px;
+    font-size: 24px;
+}
