@@ -130,7 +130,7 @@ a > i{
     width: 85% !important; 
   }
   .w-50{
-    width: 75%;
+    width: 100% !important;
   }
   img{
     display: none;

@@ -5,7 +5,7 @@ const Features = () => {
     return (
         <>
             <div className='main-wrapper bg-dark'>
-                <div className='w-75 m-auto center fdc features-wrapper'>
+                <div className='w-75 m-auto center fdc features-wrapper txt-center'>
                     <p>Our best features for you</p>
                     <h1 className='c-white'>What makes us so special and different ?</h1>
                     <div className='w-50 m-auto txt-center'>
@@ -13,7 +13,7 @@ const Features = () => {
                     </div>
                 </div>
                 <div className='w-75 m-auto center fdc features-wrapper'>
-                    <div className='center justify-between w-100'>
+                    <div className='center justify-between w-100 features-container'>
                         <div className='icon-container center fdc'>
                             <i class="fa-solid fa-hand-holding-dollar features-icons"></i>
                             <p className='c-fade'>10x lesser Price</p>
