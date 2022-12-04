@@ -1,0 +1,9 @@
+.error-page > i{
+    font-size: 10em;
+}
+.error-page > h3{
+    font-size: 48px;
+    margin-bottom: 25px;
+    width: 60vw;
+    text-align: center;
+}

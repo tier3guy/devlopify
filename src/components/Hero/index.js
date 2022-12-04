@@ -1,3 +1,6 @@
+import Features from '../Features';
+import Pricing from '../Pricing';
+
 import './index.css';
 
 const Hero = () => {
@@ -15,13 +18,15 @@ const Hero = () => {
                         <p>
                             We at <i>devlopify</i> create some amazing looking websites and trust me we charge <i>10x</i> times less than any other in the market.
                         </p>
-                        <p>Want to know more how ? <a><i>Get a Call.</i></a> </p>
+                        <p>Want to know more how ? <a href='/'><i>Get a Call.</i></a> </p>
                     </div>
                     <div>
                         <img className='img-hero' src={src} alt='img' />
                     </div>
                 </div>
             </div>
+            <Features/>
+            <Pricing/>
         </>
     )
 }

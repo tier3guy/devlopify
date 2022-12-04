@@ -1,16 +1,17 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Features from "./components/Features";
-import Pricing from "./components/Pricing";
+import ErrorPage from "./components/Error";
 import Footer from "./components/Footer";
+import {Switch, Route} from "react-router-dom";
 
 const App = () => {
   return (
     <div className="App">
       <Navbar />
-      <Hero/>
-      <Features/>
-      <Pricing/>
+      <Switch>
+        <Route exact path="/" component={Hero}/>
+        <Route path={'*'} component={(props) => <ErrorPage {...props} errorCode={'503'}/>} />
+      </Switch>
       <Footer/>
     </div>
   );
