@@ -1,6 +1,10 @@
+import {useState} from 'react';
 import './index.css';
 
 const Footer = () => {
+
+    const [mail, setMail] = useState('');
+
     return (
         <>
             <div className='main-wrapper bg-dark'>
@@ -9,7 +13,7 @@ const Footer = () => {
                         <h1 className='c-white'>devlopify</h1>
                         <p className='c-white'>let's build the future <i>india</i> together.</p>
                         <div className='send-mail'>
-                            <input placeholder='enter your email here'/>
+                            <input placeholder='enter your email here' value={mail} onChange={(e) => setMail(e.target.value)}/>
                             <button className='btn-primary send shadow-none'>
                                 <i class="fa-solid fa-arrow-right c-white"></i>
                             </button>
