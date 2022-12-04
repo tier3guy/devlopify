@@ -10,7 +10,7 @@ const Hero = () => {
                 <div className='w-75 m-auto d-flex hero'>
                     <div className='txt-wrapper'>
                         <h1 className='hero-txt c-dark'>
-                            Boots your <i>audience</i> reach through your own customized website.
+                            Boost your <i>audience</i> reach through your own customized website.
                         </h1>
                         <p>
                             We at <i>devlopify</i> create some amazing looking websites and trust me we charge <i>10x</i> times less than any other in the market.
