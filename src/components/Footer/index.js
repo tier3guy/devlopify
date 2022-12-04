@@ -22,7 +22,7 @@ const Footer = () => {
                     </div>
                 </footer>
                 <div className='w-75 center justify-between m-auto footer-down'>
-                    <p className='c-white'>© 2023 <i>devlopify</i> Inc. All rights have reserved.</p>
+                    <p className='c-white'>© 2023 <i>devlopify</i> Inc. All rights have been reserved.</p>
                     <p className='c-white'>Terms & Conditions. Privacy Policy</p>
                 </div>
             </div>
