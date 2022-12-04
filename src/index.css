@@ -13,6 +13,7 @@
 }
 body{
   background: var(--white);
+  scroll-behavior: smooth;
 }
 button, a{
   cursor: pointer;
@@ -36,6 +37,13 @@ i{
 a > i{
   padding: 2px;
   border-bottom: 1px solid var(--purple);
+}
+a{
+  color: var(--dark);
+  transition: all 0.1s;
+}
+a:hover{
+  color: var(--dark);
 }
 
 .main-wrapper{
@@ -67,6 +75,9 @@ a > i{
   border-radius: 25px;
   transition: all 0.2s;
   margin: 0;
+}
+.btn-primary:hover{
+  opacity: 0.8;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus{
   background: var(--purple);

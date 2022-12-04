@@ -12,7 +12,7 @@ const Navbar = () => {
                         <a className='nav-items c-grey'>Testimonials</a>
                         <a className='nav-items c-grey'>Pricing</a>
                     </ul>
-                    <button className='btn-primary'>Contact</button>
+                    <a className='btn-primary' href='#footer'>Contact</a>
                     <button className='bg-none' type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i className="fa-solid fa-bars"></i></button>
                 </nav>
             </div>

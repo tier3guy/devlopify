@@ -4,13 +4,13 @@ const Footer = () => {
     return (
         <>
             <div className='main-wrapper bg-dark'>
-                <footer className='w-75 center justify-between m-auto'>
+                <footer id='footer' className='w-75 center justify-between m-auto'>
                     <div>
                         <h1 className='c-white'>devlopify</h1>
                         <p className='c-white'>let's build the future <i>india</i> together.</p>
                         <div className='send-mail'>
                             <input placeholder='enter your email here'/>
-                            <button className='btn-primary send'>
+                            <button className='btn-primary send shadow-none'>
                                 <i class="fa-solid fa-arrow-right c-white"></i>
                             </button>
                         </div>

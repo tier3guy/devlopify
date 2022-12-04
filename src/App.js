@@ -9,8 +9,12 @@ const App = () => {
     <div className="App">
       <Navbar />
       <Switch>
-        <Route exact path="/" component={Hero}/>
-        <Route path={'*'} component={(props) => <ErrorPage {...props} errorCode={'503'}/>} />
+        <Route exact path="/">
+          <Hero/>
+        </Route>
+        <Route path={'*'}>
+          <ErrorPage errorCode={'404'}/>
+        </Route>
       </Switch>
       <Footer/>
     </div>

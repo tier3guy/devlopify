@@ -1,4 +1,5 @@
 import './index.css';
+import { Link } from 'react-router-dom';
 
 const ErrorPage = ({errorCode}) => {
 
@@ -12,7 +13,9 @@ const ErrorPage = ({errorCode}) => {
             <div className='main-wrapper center fdc error-page h-100'>
                 <i>{errorCode}</i>
                 <h3>{codeMap[errorCode]}</h3>
-                <a href='/'><i>Go back to the home</i></a>
+                <Link to={'/'}>
+                    <a href='/'><i>Go back to the home</i></a>
+                </Link>
             </div>
         </>
     );
