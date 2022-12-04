@@ -11,3 +11,9 @@
     height: 90vh;
     object-fit: cover;
 }
+
+@media only screen and (max-width: 600px) {
+    .pricing > .txt-wrapper{
+        width: 100%;
+    }
+}

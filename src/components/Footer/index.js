@@ -8,10 +8,12 @@ const Footer = () => {
                     <div>
                         <h1 className='c-white'>devlopify</h1>
                         <p className='c-white'>let's build the future <i>india</i> together.</p>
-                        <input placeholder='enter your email here'/>
-                        <button className='btn-primary send'>
-                            <i class="fa-solid fa-arrow-right c-white"></i>
-                        </button>
+                        <div className='send-mail'>
+                            <input placeholder='enter your email here'/>
+                            <button className='btn-primary send'>
+                                <i class="fa-solid fa-arrow-right c-white"></i>
+                            </button>
+                        </div>
                     </div>
                     <div className='connect-the-founder'>
                         <h2 className='c-purple'>Connect with the founder</h2>
