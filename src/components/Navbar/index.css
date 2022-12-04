@@ -13,3 +13,32 @@
 .nav-items{
     margin: 0px 15px;
 }
+.fa-bars{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .navbar > ul, .navbar > .btn-primary{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+        font-size: 26px;
+    }
+    .nav-responsive{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 20%;
+    }
+    .nav-responsive > ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-responsive > ul > a{
+        font-size: 1.5em;
+        margin: 15px 0px;
+    }
+}

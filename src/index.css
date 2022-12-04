@@ -5,6 +5,12 @@
   font-family: var(--font-main);
   font-weight: 400;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
 body{
   background: var(--white);
 }
@@ -112,4 +118,14 @@ a > i{
 }
 .mt-5{
   margin-top: 2em;
+}
+.bg-none{
+  background: transparent;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .w-75{
+    width: 90% !important; 
+  }
 }
