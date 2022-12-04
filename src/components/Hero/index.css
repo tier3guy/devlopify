@@ -19,3 +19,13 @@
 .txt-wrapper > p{
     margin-top: 15px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .hero{
+        flex-direction: column;
+    }
+    .txt-wrapper{
+        width: 70%;
+    }
+}

@@ -66,6 +66,7 @@ a > i{
   color: var(--white);
   border-radius: 25px;
   transition: all 0.2s;
+  margin: 0;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus{
   background: var(--purple);
@@ -126,6 +127,12 @@ a > i{
 
 @media only screen and (max-width: 600px) {
   .w-75{
-    width: 90% !important; 
+    width: 85% !important; 
+  }
+  .w-50{
+    width: 75%;
+  }
+  img{
+    display: none;
   }
 }
