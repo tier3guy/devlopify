@@ -59,6 +59,10 @@ a > i{
   background: var(--purple);
   color: var(--white);
   border-radius: 25px;
+  transition: all 0.2s;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus{
+  background: var(--purple);
 }
 .logo{
   color: var(--purple);
