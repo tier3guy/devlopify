@@ -12,6 +12,7 @@ const Navbar = () => {
                         <Link to='/features' className='nav-items c-grey'>Features</Link>
                         <Link to='/testimonials' className='nav-items c-grey'>Testimonials</Link>
                         <Link to='/pricings' className='nav-items c-grey'>Pricing</Link>
+                        <Link to='/careers' className='nav-items c-grey'>Careers</Link>
                     </ul>
                     <a className='btn-primary' href='#footer'>Contact</a>
                     <button className='bg-none' type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i className="fa-solid fa-bars"></i></button>
