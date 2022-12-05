@@ -13,7 +13,7 @@ const App = () => {
           <Hero/>
         </Route>
         <Route path={'*'}>
-          <ErrorPage errorCode={'404'}/>
+          <ErrorPage errorCode={'503'}/>
         </Route>
       </Switch>
       <Footer/>
