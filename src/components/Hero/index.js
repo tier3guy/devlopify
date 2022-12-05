@@ -9,7 +9,7 @@ const Hero = () => {
 
     return (
         <>
-            <div className='main-wrapper h-100'>
+            <div className='main-wrapper'>
                 <div className='w-75 m-auto d-flex hero'>
                     <div className='txt-wrapper'>
                         <h1 className='hero-txt c-dark'>
