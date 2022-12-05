@@ -13,9 +13,8 @@ const Navbar = () => {
                         <Link to='/testimonials' className='nav-items c-grey'>Testimonials</Link>
                         <Link to='/pricings' className='nav-items c-grey'>Pricing</Link>
                         <a target={'_blank'} href='https://forms.gle/cTv4s1nKHUsVt6GcA' className='nav-items c-grey' rel="noreferrer">Careers</a>
-                        <Link to='/careers' className='nav-items c-grey'>Hire Workforce</Link>
                     </ul>
-                    <a className='btn-primary' href='#footer'>Contact</a>
+                    <a className='btn-primary' href='#footer'>Hire Workforce</a>
                     <button className='bg-none' type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i className="fa-solid fa-bars"></i></button>
                 </nav>
             </div>
@@ -26,8 +25,9 @@ const Navbar = () => {
                         <Link className='nav-items c-grey'>Features</Link>
                         <Link className='nav-items c-grey'>Testimonials</Link>
                         <Link className='nav-items c-grey'>Pricing</Link>
+                        <a target={'_blank'} href='https://forms.gle/cTv4s1nKHUsVt6GcA' className='nav-items c-grey' rel="noreferrer">Careers</a>
                     </ul>
-                    <button className='btn-primary'>Contact</button>
+                    <button className='btn-primary'>Hire Workforce</button>
                 </div>
             </div>
         </>
