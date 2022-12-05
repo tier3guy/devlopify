@@ -16,7 +16,7 @@ const Hero = () => {
                             Needed a perfect <i>work-life</i> balance ? We have covered you in that.
                         </h1>
                         <p>
-                            We at <i>devlopify</i> take your extra work and get your work done in time. Along with <i>24X7 tech support</i>.
+                            We at <i>devlopify</i> take your extra work and get your work done in time. Along with a minimum of <i>100+ hours monthly tech support</i>.
                         </p>
                         <p>We at <i>devlopify</i> create some amazing looking websites and trust me we charge <i>10x</i> times less than any other in the market.</p>
                         <p>Want to know more how ? 
@@ -39,7 +39,7 @@ const Hero = () => {
                                 <input placeholder='+91 62903 06361'/>
                             </div>
                             <div className="modal-footer">
-                                <button type="button" className="btn btn-primary">Get a Call 😁</button>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" className="btn btn-primary">Get a Call 😁</button>
                             </div>
                         </div>
                     </div>
