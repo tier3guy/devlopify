@@ -134,7 +134,37 @@ a:hover{
 .bg-none{
   background: transparent;
 }
-
+.link-btn{
+  background: transparent;
+  margin-left: 10px;
+}
+.modal{
+  margin-top: 10em;
+  border: none;
+}
+.modal-content{
+  padding: 2em;
+  border-radius: 22px;
+}
+.modal-title {
+  font-size: 28px;
+}
+.modal-body > input{
+  width: 100%;
+  padding: 15px;
+  color: var(--dark);
+  font-size: 20px;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid var(--dark);
+}
+.modal-footer > button{
+  width: 100%;
+  border: none;
+}
+.modal div{
+  border: none;
+}
 
 @media only screen and (max-width: 600px) {
   .w-75{

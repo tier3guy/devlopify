@@ -13,18 +13,38 @@ const Hero = () => {
                 <div className='w-75 m-auto d-flex hero'>
                     <div className='txt-wrapper'>
                         <h1 className='hero-txt c-dark'>
-                            Boost your <i>audience</i> reach through your own customized website.
+                            Needed a perfect <i>work-life</i> balance ? We have covered you in that.
                         </h1>
                         <p>
-                            We at <i>devlopify</i> create some amazing looking websites and trust me we charge <i>10x</i> times less than any other in the market.
+                            We at <i>devlopify</i> take your extra work and get your work done in time. Along with <i>24X7 tech support</i>.
                         </p>
-                        <p>Want to know more how ? <a href='/'><i>Get a Call.</i></a> </p>
+                        <p>We at <i>devlopify</i> create some amazing looking websites and trust me we charge <i>10x</i> times less than any other in the market.</p>
+                        <p>Want to know more how ? 
+                            <button className='link-btn' data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <a><i>Get a Call.</i></a>
+                            </button>
+                        </p>
                     </div>
                     <div>
                         <img className='img-hero' src={src} alt='img' />
                     </div>
                 </div>
-            </div>
+                <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h5 className="modal-title" id="exampleModalLabel">Give your contact, so that we can reach you ! 🚀</h5>
+                            </div>
+                            <div className="modal-body">
+                                <input placeholder='+91 62903 06361'/>
+                            </div>
+                            <div className="modal-footer">
+                                <button type="button" className="btn btn-primary">Get a Call 😁</button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
             <Features/>
             <Pricing/>
         </>
