@@ -23,6 +23,9 @@ const Footer = () => {
                         <h2 className='c-purple'>Connect with the founder</h2>
                         <p className='c-white'>avinash@devlopify<i>.tech</i></p>
                         <p className='c-white'>+91 62903 06361</p>
+                        <a className='social-media-icons' target={'_blank'} href='https://www.instagram.com/devlopify/' rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                        <a className='social-media-icons' target={'_blank'} href='https://www.linkedin.com/company/devlopify/' rel="noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a className='social-media-icons' target={'_blank'} href='https://twitter.com/devlopify?t=yGxukK5W-8idknfFzExWkw&s=08' rel="noreferrer"><i class="fa-brands fa-twitter"></i></a>
                     </div>
                 </footer>
                 <div className='w-75 center justify-between m-auto footer-down'>

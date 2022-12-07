@@ -35,12 +35,23 @@ footer > div > p{
     left: calc(100% - 55px);
     top: 5px;
 }
-
 .footer-down{
     padding-bottom: 15px;
 }
 .connect-the-founder{
     text-align: right;
+}
+.social-media-icons{
+    text-decoration: none !important;
+    margin-top: 30px;
+    border-bottom: none;
+}
+.social-media-icons > i{
+    margin-left: 30px;
+    font-size: 32px;
+    color: var(--fade);
+    color: var(--fade);
+    border-bottom: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -63,4 +74,9 @@ footer > div > p{
         align-items: flex-start;
         flex-direction: column;
     }
+    .social-media-icons > i{
+        margin-right: 30px;
+        margin-left: 0px;
+    }
+    
 }
