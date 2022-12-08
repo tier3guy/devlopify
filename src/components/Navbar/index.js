@@ -12,7 +12,7 @@ const Navbar = () => {
                         <Link to='/features' className='nav-items c-grey'>Features</Link>
                         <Link to='/testimonials' className='nav-items c-grey'>Testimonials</Link>
                         <Link to='/pricings' className='nav-items c-grey'>Pricing</Link>
-                        <a target={'_blank'} href='https://forms.gle/cTv4s1nKHUsVt6GcA' className='nav-items c-grey' rel="noreferrer">Careers</a>
+                        <Link to='/careers' className='nav-items c-grey' rel="noreferrer">Careers</Link>
                     </ul>
                     <a className='btn-primary' href='#footer'>Hire Workforce</a>
                     <button className='bg-none' type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i className="fa-solid fa-bars"></i></button>

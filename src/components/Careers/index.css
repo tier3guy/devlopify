@@ -1,0 +1,27 @@
+.career-wrapper{
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    padding-top: 10em;
+}
+.career-wrapper > h1, .career-wrapper > h4, .career-wrapper > p, .career-wrapper > h5{
+    width: 85%;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.note{
+    margin-top: 35px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .career-wrapper{
+        padding-bottom: 3em;
+        margin-left: 8%;
+    }
+    .career-wrapper > h1, .career-wrapper > h4, .career-wrapper > p, .career-wrapper > h5{
+        width: 90%;
+    }
+}
