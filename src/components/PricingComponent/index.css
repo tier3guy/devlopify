@@ -1,8 +1,22 @@
 .pricing-component{
-    min-height: 100vh;
     padding-top: 8em;
-    padding-bottom: 3em;
+    padding-bottom: 1em;
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.pricing-cards-wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 3em;
+}
+.card{
+    width: 24%;
+}
+.most-used{
+    border: 8px solid var(--purple);
+    border-radius: 10px !important;
 }
