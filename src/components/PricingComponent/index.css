@@ -8,13 +8,14 @@
 .pricing-cards-wrapper{
     width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: auto;
     margin-top: 3em;
 }
 .card{
     width: 24%;
+    margin: 1%;
 }
 .most-used{
     border: 8px solid var(--purple);
