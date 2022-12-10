@@ -7,11 +7,18 @@ const Careers = () => {
             <div className="career-wrapper">
                 <h1>Wanna work with some amazing <i>devlopers</i> out there in the market.</h1>
                 <h4>Then for what you are waiting. <i>Come join our team today</i>.</h4>
-                <p>All you need to do is just to fill this form powered by <i>Google</i> and just sit. We will reach you once your resume got shortlisted.</p>
+                <p className="mb-0">All you need to do is just to fill this form powered by <i>Google</i> and just sit. We will reach you once your resume got shortlisted.</p>
+                
+                <div className="career-img-wrapper">
+                    <div>
+                        <div id="form">
+                            <a href="https://forms.gle/iKsFFJBcKQL8xsmf6"><i>Hiring Form</i></a>
+                            <p>👈</p>
+                        </div>
+                        <p className="note mt-0">Note, the hiring process may take some time in order to reach you. In that case we expect a quite patience from your side.</p>
+                    </div>
+                </div>
 
-                <a href="https://forms.gle/iKsFFJBcKQL8xsmf6"><i>Hiring Form</i></a>
-
-                <p className="note">Note, the hiring process may take some time in order to reach you. In that case we expect a quite patience from your side.</p>
             </div>
         </div>
         </>

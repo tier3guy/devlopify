@@ -21,10 +21,10 @@ const Navbar = () => {
             <div className="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                 <div className='nav-responsive'>
                     <ul className='p-0'>
-                        <Link className='nav-items'>Home</Link>
-                        <Link className='nav-items c-grey'>Features</Link>
+                        <Link to='/' className='nav-items'>Home</Link>
+                        <a href='#features' className='nav-items c-grey'>Features</a>
                         <Link className='nav-items c-grey'>Testimonials</Link>
-                        <Link className='nav-items c-grey'>Pricing</Link>
+                        <Link to='/pricings' className='nav-items c-grey'>Pricing</Link>
                         <Link to='/careers' className='nav-items c-grey' rel="noreferrer">Careers</Link>
                     </ul>
                     <button className='btn-primary'>Hire Workforce</button>
