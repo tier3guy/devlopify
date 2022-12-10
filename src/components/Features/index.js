@@ -4,7 +4,7 @@ const Features = () => {
 
     return (
         <>
-            <div className='main-wrapper bg-dark'>
+            <div className='main-wrapper bg-dark' id="features">
                 <div className='w-75 m-auto center fdc features-wrapper txt-center'>
                     <p>Our best features for you</p>
                     <h1 className='c-white'>What makes us so special and different ?</h1>
