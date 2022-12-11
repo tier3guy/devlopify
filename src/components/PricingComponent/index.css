@@ -5,6 +5,9 @@
     align-items: center;
     flex-direction: column;
 }
+.pricing-component > h1, .pricing-component > p{
+    text-align: center;
+}
 .pricing-cards-wrapper{
     width: 80%;
     display: flex;
@@ -27,5 +30,12 @@
     }
     .pricing-cards-wrapper{
         flex-direction: column;
+    }
+    .pricing-component > p{
+        margin-top: 15px;
+    }
+    .plan-switcher > button{
+        width: 80vw;
+        margin: auto;
     }
 }

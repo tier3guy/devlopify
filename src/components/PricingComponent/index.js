@@ -1,6 +1,6 @@
 import './index.css';
 import Card from '../PricingCard';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const dataWeb = [
     {
@@ -73,6 +73,11 @@ const dataMobile = [
 ];
 
 const PricingComponent = () => {
+
+    useEffect(() => {
+        document.title = "Pricings - devlopify"; 
+        window.scrollTo({top: 0, left: 0, behavior: 'smooth'}); 
+      }, []);
 
     const [data, setData] = useState(dataWeb);
 

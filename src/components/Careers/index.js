@@ -1,6 +1,13 @@
 import "./index.css";
+import { useEffect } from "react";
 
 const Careers = () => {
+
+    useEffect(() => {
+        document.title = "Careers - devlopify";  
+        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+    }, []);
+
     return(
         <>
         <div className="main-wrapper h-100">
