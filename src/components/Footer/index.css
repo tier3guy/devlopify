@@ -53,6 +53,14 @@ footer > div > p{
     color: var(--fade);
     border-bottom: none;
 }
+.toastIndicator{
+    position: fixed;
+    bottom: 5vh;
+    right: 2vw;
+    width: 350px;
+    padding: 8px 30px;
+    border-top: 3px solid var(--purple);
+}
 
 @media only screen and (max-width: 600px) {
     footer{
@@ -78,5 +86,7 @@ footer > div > p{
         margin-right: 30px;
         margin-left: 0px;
     }
-    
+    .toastIndicator{
+        bottom: 2vh;
+    }
 }
