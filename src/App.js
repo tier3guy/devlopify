@@ -5,35 +5,39 @@ import Footer from "./components/Footer";
 import Careers from "./components/Careers";
 import PricingComponent from "./components/PricingComponent";
 import {Switch, Route} from "react-router-dom";
+import { useState } from 'react';
 
 const App = () => {
+
+  const [ display, setDisplay ] = useState('block');
+
   return (
     <div className="App">
-      <Navbar />
+      <Navbar display={display} setDisplay={setDisplay} />
       <Switch>
         <Route exact path="/">
-          <Hero/>
+          <Hero display={display} setDisplay={setDisplay}/>
         </Route>
         <Route exact path="/careers">
-          <Careers/>
+          <Careers display={display} setDisplay={setDisplay}/>
         </Route>
         <Route exact path="/career">
-          <Careers/>
+          <Careers display={display} setDisplay={setDisplay}/>
         </Route>
         <Route exact path="/Career">
-          <Careers/>
+          <Careers display={display} setDisplay={setDisplay}/>
         </Route>
         <Route exact path="/pricings">
-          <PricingComponent/>
+          <PricingComponent display={display} setDisplay={setDisplay}/>
         </Route>
         <Route exact path="/pricing">
-          <PricingComponent/>
+          <PricingComponent display={display} setDisplay={setDisplay}/>
         </Route>
         <Route exact path="/Pricing">
-          <PricingComponent/>
+          <PricingComponent display={display} setDisplay={setDisplay}/>
         </Route>
         <Route path={'*'}>
-          <ErrorPage errorCode={'503'}/>
+          <ErrorPage errorCode={'503'} display={display} setDisplay={setDisplay}/>
         </Route>
       </Switch>
       <Footer/>

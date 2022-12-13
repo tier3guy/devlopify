@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 
 import './index.css';
 
-const Hero = () => {
+const Hero = ({display, setDisplay}) => {
 
     useEffect(() => {
         document.title = "Home - devlopify";  
@@ -15,7 +15,7 @@ const Hero = () => {
 
     return (
         <>
-            <div className='main-wrapper'>
+            <div className='main-wrapper' style={{marginTop: (display === 'none') ? '20vh' : '22vh', paddingBottom: '10vh'}}>
                 <div className='w-75 m-auto d-flex hero'>
                     <div className='txt-wrapper'>
                         <h1 className='hero-txt c-dark'>

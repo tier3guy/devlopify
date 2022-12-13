@@ -1,9 +1,7 @@
 .hero{
-    margin-top: 7em;
     display: flex;
     justify-content: space-between;
     height: 80vh;
-    margin-top: 20vh !important;
 }
 .img-hero{
     width: 35vw;

@@ -1,10 +1,19 @@
 import './index.css';
 import {Link} from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({display, setDisplay}) => {
+
     return (
         <>
             <div className='main-wrapper nav-container bg-blur'>
+                <div className='upper-annoucements' style={{display}}>
+                    <div className="annoucements-content">
+                        <p><i>🎉</i> First 50 Clients will get an instant cashback of 99 Ruppees (No question ask policy)</p>
+                        <button onClick={() => setDisplay('none')}>
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                </div>
                 <nav className='w-75 m-auto navbar'>
                     <h1 className='logo'>devlopify</h1>
                     <ul className='p-0'>

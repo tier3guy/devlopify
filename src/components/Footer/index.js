@@ -24,13 +24,12 @@ const Footer = () => {
             },
             body: JSON.stringify(mail)
         });
-
-        console.log("Mail pushed to the DB.");
-        console.log(response);
         setMail('');
 
-        setMessage("Request has been sent");
-        setTimeout(() => setShowToast(false), 4000);       
+        if(response){
+            setMessage("Request has been sent");
+            setTimeout(() => setShowToast(false), 4000);       
+        }
     }
 
     
