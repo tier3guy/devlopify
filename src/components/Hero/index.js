@@ -1,6 +1,7 @@
 import Features from '../Features';
 import Pricing from '../Pricing';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import Toast from 'react-bootstrap/Toast';
 
 import './index.css';
 
@@ -13,9 +14,43 @@ const Hero = ({display, setDisplay}) => {
 
     const src = 'https://images.unsplash.com/photo-1549692520-acc6669e2f0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80';
 
+
+    const DB_URL = 'https://devlopify-e6b25-default-rtdb.asia-southeast1.firebasedatabase.app/';
+
+    const [phone, setPhone] = useState('');
+    const [message, setMessage] = useState('Sending your Request ...');
+    const [showToast, setShowToast] = useState(false);
+
+    const toggleToast = () => setShowToast(!showToast);
+
+    const postPhoneNo = async (e) => {
+
+        e.preventDefault();
+        setShowToast(true);
+        
+        const response = await fetch(DB_URL + 'phones.json', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(phone)
+        });
+        setPhone('');
+
+        if(response){
+            setMessage("Request has been sent");
+            setTimeout(() => setShowToast(false), 4000);       
+        }
+    }
+
+
+
     return (
         <>
-            <div className='main-wrapper' style={{marginTop: (display === 'none') ? '20vh' : '22vh', paddingBottom: '10vh'}}>
+            <Toast show={showToast} onClose={toggleToast} className="toastIndicator">
+                <Toast.Body>{message}</Toast.Body>
+            </Toast>
+            <div className='main-wrapper' style={{marginTop: (display === 'none') ? '20vh' : '23vh', paddingBottom: '10vh'}}>
                 <div className='w-75 m-auto d-flex hero'>
                     <div className='txt-wrapper'>
                         <h1 className='hero-txt c-dark'>
@@ -42,10 +77,10 @@ const Hero = ({display, setDisplay}) => {
                                 <h5 className="modal-title" id="exampleModalLabel">Give your contact, so that we can reach you ! 🚀</h5>
                             </div>
                             <div className="modal-body">
-                                <input placeholder='+91 62903 06361'/>
+                                <input placeholder='+91 62903 06361' value={phone} onChange={ (e) => setPhone(e.target.value) }/>
                             </div>
                             <div className="modal-footer">
-                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" className="btn btn-primary">Get a Call 😁</button>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={postPhoneNo} className="btn btn-primary">Get a Call 😁</button>
                             </div>
                         </div>
                     </div>
