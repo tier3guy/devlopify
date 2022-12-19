@@ -28,12 +28,15 @@ const App = () => {
           <Careers display={display} setDisplay={setDisplay}/>
         </Route>
         <Route exact path="/pricings">
-        <ErrorPage errorCode={'503'} display={display} setDisplay={setDisplay}/>
+        <PricingComponent errorCode={'503'} display={display} setDisplay={setDisplay}/>
         </Route>
         <Route exact path="/pricing">
           <PricingComponent errorCode={'503'} display={display} setDisplay={setDisplay}/>
         </Route>
         <Route exact path="/Pricing">
+          <PricingComponent errorCode={'503'} display={display} setDisplay={setDisplay}/>
+        </Route>
+        <Route exact path="/Pricings">
           <PricingComponent errorCode={'503'} display={display} setDisplay={setDisplay}/>
         </Route>
         <Route path={'*'}>
