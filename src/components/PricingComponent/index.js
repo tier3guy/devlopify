@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 const dataWeb = [
     {
         name: 'Basic',
-        pricing: 499,
+        pricing: 999,
         support: [
             "Static Website",
             "Tech Stack - HTML, CSS, JS"
@@ -13,7 +13,7 @@ const dataWeb = [
     },
     {
         name: 'Active',
-        pricing: 999,
+        pricing: 1499,
         support: [
             "Static Website",
             "Tech Stack - HTML, CSS, JS",
@@ -23,7 +23,7 @@ const dataWeb = [
     },
     {
         name: 'Advance',
-        pricing: 1499,
+        pricing: 2999,
         support: [
             "Dynamic Website",
             "Tech Stack - React",
@@ -35,7 +35,7 @@ const dataWeb = [
     },
     {
         name: 'Pro',
-        pricing: 1999,
+        pricing: 4999,
         support: [
             "Dynamic Website",
             "Tech Stack - MERN",
@@ -49,7 +49,7 @@ const dataWeb = [
 const dataMobile = [
     {
         name: 'Advanced',
-        pricing: 3499,
+        pricing: 4999,
         support: [
             "Tech Stack - React Native",
             "Database with MongoDB",
@@ -60,7 +60,7 @@ const dataMobile = [
     },
     {
         name: 'Pro',
-        pricing: 4999,
+        pricing: 9999,
         support: [
             "Tech Stack - React Native",
             "Database with MongoDB",

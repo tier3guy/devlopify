@@ -31,10 +31,10 @@ const App = () => {
         <ErrorPage errorCode={'503'} display={display} setDisplay={setDisplay}/>
         </Route>
         <Route exact path="/pricing">
-        <ErrorPage errorCode={'503'} display={display} setDisplay={setDisplay}/>
+          <PricingComponent errorCode={'503'} display={display} setDisplay={setDisplay}/>
         </Route>
         <Route exact path="/Pricing">
-        <ErrorPage errorCode={'503'} display={display} setDisplay={setDisplay}/>
+          <PricingComponent errorCode={'503'} display={display} setDisplay={setDisplay}/>
         </Route>
         <Route path={'*'}>
           <ErrorPage errorCode={'503'} display={display} setDisplay={setDisplay}/>
