@@ -19,7 +19,7 @@ const Careers = () => {
                 <div className="career-img-wrapper">
                     <div>
                         <div id="form">
-                            <a href="https://forms.gle/iKsFFJBcKQL8xsmf6"><i>Hiring Form</i></a>
+                            <a href="https://forms.gle/SMzpxhbC9UnGY2m27"><i>Hiring Form</i></a>
                             <p>👈</p>
                         </div>
                         <p className="note mt-0">Note, the hiring process may take some time in order to reach you. In that case we expect a quite patience from your side.</p>
